@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form </title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="#">
+            <h1 style="text-align: center;">Responsive Form</h1>
+            <!-- Persoanl Details start from here  -->
+            <fieldset>
+                <legend>
+                    Personal Details
+                </legend>
+                <div class="user-input">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div class="user-input">
+                    <label for="fname">Father's Name</label>
+                    <input type="text" id="fname">
+                </div>
+
+                <div class="user-input">
+                    <label for="date">DOB</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="user-input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="user-input">
+                    <label for="aadhar_card">Aadhar Card</label>
+                    <input type="number" id="aadhar_card">
+                </div>
+                <div class="user-input">
+                    <label for="pan_num">PAN Number</label>
+                    <input type="text" id="pan_num">
+                </div>
+            </fieldset>
+            <br>
+            <!-- Personal Details end here -->
+            <!-- Address Start from here -->
+            <fieldset>
+                <legend>
+                    Address Details
+                </legend>
+                <div class="user-input">
+                    <label for="village">Village</label>
+                    <input type="text" id="village">
+                </div>
+
+                <div class="user-input">
+                    <label for="houseno">House No</label>
+                    <input type="number" id="houseno">
+                </div>
+
+                <div class="user-input">
+                    <label for="street">Street</label>
+                    <input type="text" id="street">
+                </div>
+                <div class="user-input">
+                    <label for="postoffice">Post Office</label>
+                    <input type="text" id="postoffice">
+                </div>
+                <div class="user-input">
+                    <label for="district">District</label>
+                    <input type="text" id="district">
+                </div>
+                <div class="user-input">
+                    <label for="state">State</label>
+                    <input type="text" id="state">
+                </div>
+            </fieldset>
+            <br>
+            <!-- Address End Here  -->
+            <!-- Banking Start from here  -->
+            <fieldset>
+                <legend>
+                    Banking Details
+                </legend>
+                <div class="user-input">
+                    <label for="bank_name">Bank Name</label>
+                    <input type="text" id="bank_name">
+                </div>
+
+                <div class="user-input">
+                    <label for="accountnum">Account No</label>
+                    <input type="number" id="accountnum">
+                </div>
+
+                <div class="user-input">
+                    <label for="ifsccode">IFSC Code</label>
+                    <input type="text" id="ifsccode">
+                </div>
+
+                <div class="user-input">
+                    <label for="micr">MICR</label>
+                    <input type="text" id="micr">
+                </div>
+                <div class="user-input">
+                    <label for="bankstmtpdf">Statement- PDF Only</label>
+                    <input type="file" id="bankstmtpdf">
+                </div>
+            </fieldset>
+            <br>
+
+            <!-- Business Details Start here  -->
+            <fieldset>
+                <legend>
+                    Banking Details
+                </legend>
+                <div class="user-input">
+                    <label for="business_name">Business Name</label>
+                    <input type="text" id="business_name">
+                </div>
+
+                <div class="user-input">
+                    <label for="gst_num">GST No</label>
+                    <input type="text" id="gst_num">
+                </div>
+
+                <div class="user-input">
+                    <label for="udyam">UDYAM</label>
+                    <input type="text" id="udyam">
+                </div>
+
+                <div class="user-input">
+                    <label for="business_Address">Address</label>
+                    <input type="text" id="business_Address">
+                </div>
+                <div class="user-input">
+                    <label for="business_acc_Num">Account Number</label>
+                    <input type="number" id="business_acc_Num">
+                </div>
+                <div class="user-input">
+                    <label for="bussiness-ifsc-code">IFSC Code</label>
+                    <input type="text" id="bussiness-ifsc-code">
+                </div>
+            </fieldset>
+            <br>
+            <div class="photo_data">
+                <div class="photo-upload-sec">
+                    <div class="photo-sec">
+                        <img src="assets/photo.jpg" alt="">
+                    </div>
+                    <label for="photo-card">Upload Photo:</label>
+                    <input type="file" id="photo-card">
+                </div>
+                <div class="photo-upload-sec">
+                    <div class="photo-sec">
+                        <img src="assets/aadharphoto.jpg" alt="">
+                    </div>
+                    <label for="photo-card">Upload Aadhar:</label>
+                    <input type="file" id="photo-card">
+                </div>
+                <div class="photo-upload-sec">
+                    <div class="photo-sec">
+                        <img src="assets/photo.jpg" alt="">
+                    </div>
+                    <label for="bank_passbook">Bank Passbook:</label>
+                    <input type="file" id="bank_passbook">
+                </div>
+                <div class="photo-upload-sec">
+                    <div class="photo-sec">
+                        <img src="assets/aadharphoto.jpg" alt="">
+                    </div>
+                    <label for="passport_photo">Passport Photo:</label>
+                    <input type="file" id="passport_photo">
+                </div>
+            </div>
+            <!-- <div class="photo-upload">
+                <div class="photo-update">
+                    <div class="upload-items">
+                        <img src="assets/aadharphoto.jpg" for="aadharPhotoUpload" alt="Aadhar">
+                    </div>
+                    <div class="upload_files">
+                        <label for="aadharPhotoUpload">Upload Aadhar:</label>
+
+                        <input type="file" name="aadharPhotoUpload" id="aadharPhotoUpload">
+                    </div>
+                </div>
+                <div class="photo-update">
+                    <div class="upload-items">
+                        <img src="assets/aadharphoto.jpg" for="pancard" alt="PAN CARD">
+                    </div>
+                    <div class="upload_files">
+                        <label for="panupload">PAN Upload</label>
+                        <input type="file" name="panupload" id="panupload">
+                    </div>
+                </div>
+                <div class="photo-update">
+                    <div class="upload-items">
+                        <img src="assets/aadharphoto.jpg" for="bank_passbook" alt="Aadhar">
+                    </div>
+                    <div class="upload_files">
+                        <label for="bank_passbook">Bank Passbook Upload</label>
+                        <input type="file" name="bank_passbook" id="bank_passbook">
+                    </div>
+                </div>
+                <div class="photo-update">
+                    <div class="upload-items">
+                        <img src="assets/aadharphoto.jpg" for="passportPhoto" alt="Aadhar">
+                    </div>
+                    <div class="upload_files">
+                        <label for="passportPhoto">Passport Photo Upload</label>
+                        <input type="file" name="passportPhoto" id="passportPhoto">
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="submitbtm">
+                <button class="submit_btn">Submit</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
