@@ -28,6 +28,11 @@ form {
   width: calc(100% - 150px);
   padding: 5px 10px;
 }
+.user-input input[type="number"]::-webkit-inner-spin-button,
+.user-input input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 .user-input input:focus {
   outline: none;
 }
